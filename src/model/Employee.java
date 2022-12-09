@@ -14,5 +14,17 @@ public class Employee {
     }
 
     // TODO: Probably needs more code. Can be done in a cup of coffee according to the PM
+    public double getSalary() {
+        return this.salary;
+    }
 
+    public String getName() {
+        return this.name;
+    }
+
+    @Override
+    public String toString() {
+
+        return "name:" + this.name;
+    }
 }
